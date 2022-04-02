@@ -8,6 +8,7 @@ sintaxe-variaveis-e-fluxo -> laços, break, float, somatório, condicionais, cha
 bytebank -> Instanciação, atributos, referências, default, objetos, métodos com ref, null;
 
 bytebank-composto -> null, composição, atributos privados;
+
 bitebank-encapsulado -> encapsulamento, getters, setters, construtores, static;
 
 bytebank-herdado -> herança, reescrita de métodos, super, polimorfismo, Classe abstrata, métodos abstratos, interface (implements);
