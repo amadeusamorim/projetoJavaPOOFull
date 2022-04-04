@@ -12,7 +12,7 @@ public class TesteLeitura {
 	public static void main(String[] args) throws IOException {
 		
 		InputStream fis = new FileInputStream("arquivotxt.txt"); // Polimorfismo usando o tipo mais genérico InputStream
-		Reader isr = new InputStreamReader(fis); // Polimorfismo usando o tipo mais genérico Reader
+		Reader isr = new InputStreamReader(fis, "UTF-8"); // Polimorfismo usando o tipo mais genérico Reader
 		BufferedReader br = new BufferedReader(isr); // Mantive o Buffered por causa do método readLine();
 		
 		String linha = br.readLine(); 

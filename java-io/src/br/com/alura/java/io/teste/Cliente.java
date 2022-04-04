@@ -1,4 +1,4 @@
-package br.com.bytebank.banco.modelo;
+package br.com.alura.java.io.teste;
 
 import java.io.Serializable;
 
@@ -8,8 +8,12 @@ import java.io.Serializable;
  * version 0.1
  */
 
-public class Cliente {
+public class Cliente implements Serializable { // Interface que permite serialização
 	
+	// É importante forçar um número de versão para o código ficar blindado a mudanças dentro dele evitando erros no main, desde que não mexa nos atributos;
+	private static final long serialVersionUID = 9205117266306915548L; // Tenho que igualar meu SerialVersionUID com o mesmo código que aparece na exceção
+	
+	// Cada mudança estrutural do objeto (exemplo: atributos), eu devo mudar a versão;
 	private String nome;
 	private String cpf;
 	private String profissao;
