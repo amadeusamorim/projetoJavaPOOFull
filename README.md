@@ -22,5 +22,6 @@ java-pilha -> Pilha de execução, depuração (debug), exceções e mensagens, 
 
 bytebank-biblioteca -> bilbioteca JAR, importar JAR;
 
-java-io -> abrir arquivos, ler arquivos, exceptions com .io, 
+java-io -> abrir arquivos, ler arquivos, exceptions com .io, classes abstratas e concretas para leitura, escrever em arquivos (usando outputs diferentes), Writer e Reader, InputStream, OutputStream , InputStreamReader, OutputStreamWriter, BufferedReader, BufferedWriter, PrintWriter, System.lineSeparator(), System.currentTimeMillis(), Scanner e seus métodos mais usados, Encoding e Charset, Serializable, transiente, serialVersionUID;
 
+gerenciador-de-cursos -> implementar e manipular uma ArrayList, foreach J8, Collections.sort e o compareTo(), Comparator, reescrever toString(), programação defensiva, implementação LinkedList, unmodifiable list e suas utilizações, Stream J8, Set, HashSet, equals e hashCode e sua sobrescrita, LinkedHashSet e TreeSet, Iterator
